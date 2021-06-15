@@ -1,45 +1,37 @@
 h1{
     color: aqua;
 }
-.header{
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-}
+
 .grid img{
     border:2px solid black;
     border-radius: 50px;
-    flex-wrap: wrap;
 }
-.origami{
-    border-radius: 20px;
-    background-color: white;
 
-    width: 310px;
-    font-family: fantasy;
-    display: flex;
-}
 .footer{
     display: flex;
     justify-content: flex-end;
 }
 .menu{
     display: flex;
-    justify-content: space-between;
-    background-color: black;
+    justify-content:space-between;
+    background-color: brown;
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 400;
     color: white;
 }
-body{
-    background-color: whitesmoke;
+
+
+.grid{
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    background-color: gray;
 }
 .item{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-    border: solid;
+    width: 310px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    margin: 10px;
+    padding-top: 10px;
 }
